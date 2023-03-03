@@ -1,0 +1,31 @@
+.movieContainer{
+  /* border: 2px solid red; */
+  max-width: 320px;
+  margin: 3px;
+  height:min-content;
+  
+ 
+}
+.movieImage{
+  width: 320px;height: 450px;
+  object-fit: cover;
+  
+}
+.movieRating{
+  display: flex;
+  justify-content:space-between;
+  margin: 2px;
+}
+.mainContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.like{
+  display: flex;
+  justify-content: space-between;
+}
+.summary{
+ 
+  text-align: justify;
+}
