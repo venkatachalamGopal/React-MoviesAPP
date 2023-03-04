@@ -23,7 +23,7 @@ function Addmovies(){
             summary:summary, 
             trailer:trailer
         }
-        fetch(`https://6312f929b466aa9b039081d0.mockapi.io/movies`,{
+        fetch(`https://64035109302b5d671c4c316b.mockapi.io/movies`,{
                 method:"POST",
                 body:JSON.stringify(newMovie),
                 headers:{

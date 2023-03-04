@@ -21,7 +21,7 @@ export default function UpdateMovie(){
     // console.log(upmovie);
 
     useEffect(()=>{
-        fetch(`https://6312f929b466aa9b039081d0.mockapi.io/movies/${id}`)
+        fetch(`https://64035109302b5d671c4c316b.mockapi.io/movies/${id}`)
     .then((response)=>response.json())
     .then((data)=>{
         setName(data.name);
