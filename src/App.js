@@ -49,6 +49,7 @@ export default function App(){
           <Button onClick={()=>navigate('/')} color="inherit">HOME</Button>
           <Button onClick={()=>navigate('/movies')} color="inherit">AllMovies</Button>
           <Button onClick={()=>navigate('/addmovies')} color="inherit">AddMovies</Button>
+          <Button onClick={()=>navigate('/formvalidation')} color="inherit">Form</Button>
           <Button color="inherit"onClick={()=>setBg(!bg)}>{bg?<Brightness4/>:<Brightness7/>}{darkTheme.palette.mode}Mode</Button>
         </Toolbar>
       </AppBar>
@@ -59,7 +60,7 @@ export default function App(){
       <Route path='/movietrailer/:id' element={<MovieTrailer />}/>
       <Route path='/addmovies'element={<Addmovies/>}/>
       <Route path='/updatemovie/:id'element={<UpdateMovie/>}/>
-      <Route path='formvalidation' element={<FormValidation/>} />
+      <Route path='/formvalidation' element={<FormValidation/>} />
     </Routes>
     </Paper>
     </ThemeProvider>
