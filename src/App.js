@@ -4,6 +4,7 @@ import {Allmovies} from './moviecomp';
 import {MovieTrailer}from './Trailer'
 import {Addmovies} from './addmovies'
 import UpdateMovie from './updatemovie';
+import { FormValidation } from './form';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
@@ -58,6 +59,7 @@ export default function App(){
       <Route path='/movietrailer/:id' element={<MovieTrailer />}/>
       <Route path='/addmovies'element={<Addmovies/>}/>
       <Route path='/updatemovie/:id'element={<UpdateMovie/>}/>
+      <Route path='formvalidation' element={<FormValidation/>} />
     </Routes>
     </Paper>
     </ThemeProvider>
