@@ -9,7 +9,7 @@ function MovieTrailer(){
     // console.log(id);
     const [movie,setMovie]=useState({});
     useEffect(()=>{
-        fetch(`https://64035109302b5d671c4c316b.mockapi.io/movies/${id}`)
+        fetch(`./data.json/${id}`)
         .then((data)=>data.json())
         .then((data)=>{
             setMovie(data)

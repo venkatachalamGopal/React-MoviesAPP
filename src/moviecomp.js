@@ -19,16 +19,25 @@ import StarIcon from '@mui/icons-material/Star';
 
 
 
-
 // AllMovies Page ------------------
 
 function Allmovies(){
-    const [movielist,setMovielist]=useState([]);
-    function getmovies(){
+
+    async function data(){
+        const respon=await fetch(`./data.json`)
+        const data=await respon.json();
+        console.log(data);
         
-        fetch("https://64035109302b5d671c4c316b.mockapi.io/movies")
-        .then((data)=>data.json())
-        .then((data)=>setMovielist(data))
+      }
+
+
+    const [movielist,setMovielist]=useState([]);
+    async function getmovies(){
+        
+        const resp=await fetch(`./data.json`)
+        const data=await resp.json();
+        setMovielist(data)
+        
         
     }
     useEffect(()=>{
@@ -36,7 +45,7 @@ function Allmovies(){
     },[])
 
     function deletemovie(id){
-        fetch(`https://64035109302b5d671c4c316b.mockapi.io/movies/${id}`,
+        fetch(`./data.json/${id}`,
         {
             method:"DELETE"
         })
