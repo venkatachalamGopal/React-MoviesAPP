@@ -56,12 +56,20 @@
       "trailer": "https://www.youtube.com/embed/Gc6dEDnL8JA"
     },
     {
+      "id": "8",
       "name": "Arunachalam",
       "poster": "https://a10.gaanacdn.com/images/albums/15/1895915/crop_480x480_1596798462_1895915.jpg",
       "rating": "7.5",
       "summary": "An orphan discovers that he is the son of a late multimillionaire, Vedhachalam. To inherit the property, he has to spend thirty crores in a month, without gifting or donating it.",
-      "trailer": "https://www.youtube.com/embed/nw4qmUgwYaw",
-      "id": "8"
+      "trailer": "https://www.youtube.com/embed/nw4qmUgwYaw"
+    },
+    {
+      "id":"5",
+      "name":"Mersal",
+      "poster":"https://upload.wikimedia.org/wikipedia/en/8/8b/Mersal_soundtrack.jpg",
+      "rating":"7.5",
+      "summary":"Maaran, a doctor, is falsely arrested for the murder of his colleague, Dr Arjun Zachariah. He soon discovers that the real culprit is a lookalike who aims to expose corruption in the medical industry.",
+      "trailer":"https://www.youtube.com/watch?v=fWajtP80g54"
     }
   ]
   

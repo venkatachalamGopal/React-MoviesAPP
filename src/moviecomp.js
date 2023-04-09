@@ -75,11 +75,6 @@ const navigate=useNavigate();
         color:(movie.rating >8.5) ? "Green":"orange",
         
     }
-    // conditional styling purpose,,,,,
-    // const hide={
-    //     display:click?"block":'none'
-    // }
-
     return(
         <>
         

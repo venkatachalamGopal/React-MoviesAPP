@@ -6,15 +6,23 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 function MovieTrailer(){
     const navigate=useNavigate();
     const{id}=useParams();
-    // console.log(id);
+    console.log(id);
     const [movie,setMovie]=useState({});
-    useEffect(()=>{
-        fetch(`./data.json/${id}`)
-        .then((data)=>data.json())
-        .then((data)=>{
-            setMovie(data)
-        })
-    },[id])
+    fetch(`./data.json/${id}`).then((res)=>
+        res.json()
+    ).then((data)=>{
+        console.log(data);
+        
+    })
+
+
+    // useEffect(()=>{
+    //     fetch(`./data.json/${id}`)
+    //     .then((data)=>data.json())
+    //     .then((data)=>{
+    //         setMovie(data)
+    //     })
+    // },[id])
 
     // console.log(id);
     // const movie=movielist[id];

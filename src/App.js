@@ -35,14 +35,7 @@ export default function App(){
 
   return(
     <>
-    {/* Navigation Menus
-    <nav>
-      <ul>
-        <li><Link to='/'>Home</Link></li>
-        <li><Link to="/movies">AllMovies</Link></li>
-        <li><Link to="/addmovies">AddMovies</Link></li>
-      </ul>
-    </nav> */}
+
     <ThemeProvider theme={darkTheme}>
       <Paper elevation={0} style={{minHeight:'100vh'} }>
     <AppBar position="static">
